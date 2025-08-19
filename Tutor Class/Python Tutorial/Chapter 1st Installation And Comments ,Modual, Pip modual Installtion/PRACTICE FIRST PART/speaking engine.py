@@ -1,23 +1,27 @@
 import pyttsx3
+engine = pyttsx3.init() # object creation
 
-# Initialize Text-to-Speech engine
-engine = pyttsx3.init()
+# RATE
+rate = engine.getProperty('rate')   # getting details of current speaking rate
+print (rate)                        # printing current voice rate
+engine.setProperty('rate', 125)     # setting up new voice rate
 
-# Optional: Adjust speaking rate
-engine.setProperty('rate', 170)  # Words per minute
+# VOLUME
+volume = engine.getProperty('volume')   # getting to know current volume level (min=0 and max=1)
+print (volume)                          # printing current volume level
+engine.setProperty('volume',1.0)        # setting up volume level  between 0 and 1
 
-# Optional: Adjust volume (0.0 to 1.0)
-engine.setProperty('volume', 1.0)
+# VOICE
+voices = engine.getProperty('voices')       # getting details of current voice
+#engine.setProperty('voice', voices[0].id)  # changing index, changes voices. o for male
+engine.setProperty('voice', voices[1].id)   # changing index, changes voices. 1 for female
 
-# Speak first three lines
-engine.say("Hello, how are you?")
-engine.say("How can I help you?")
-engine.say("Anything you need related to product information?")
+engine.say("Hello World!my   name is raman   how can i help you   if you need something please tell me")
+engine.say('My current speaking rate is ' + str(rate))
+engine.runAndWait()
+engine.stop()
 
-# Change to female voice (voices[1]) or check available voices
-voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[0].id)  # Usually female
-engine.say("Thanks for coming.")
-
-# Run speech
+# Saving Voice to a file
+# On Linux, make sure that 'espeak-ng' is installed
+engine.save_to_file('Hello World', 'test.mp3')
 engine.runAndWait()

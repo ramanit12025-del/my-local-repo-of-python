@@ -8,8 +8,6 @@ print(b.capitalize()) #its do capital only first letter of any word ex- raman |b
 print(b.upper())
 print(b.strip())
 print(b.replace("raman","Raman"))
-print(b.split("raman"))
-print(b.join(["thakur"]))
 print(b.count("a"))
 print(b.isdigit())
 print(b.isalpha())

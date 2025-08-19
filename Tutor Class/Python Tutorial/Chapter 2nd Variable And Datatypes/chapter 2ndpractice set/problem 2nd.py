@@ -1,4 +1,4 @@
-# write a python progrm to find remainderwhen a no. is divided by any no.
+# write a python progrm to find remainder when a no. is divided by any no.
 a=5
 b=3
 c=a/b
