@@ -6,3 +6,7 @@ shope={"shop":"50",
        }
 # by this key use we can get key valuse pair in tuples form
 print(shope.items())
+#by keys method we can get key element from dictionary 
+print(shope.keys())
+#by keys method we can get value element from dictionary 
+print(shope.values())
