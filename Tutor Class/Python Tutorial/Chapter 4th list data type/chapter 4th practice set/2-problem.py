@@ -1,0 +1,16 @@
+# write a program to store marks in list entered by user.
+marks=[]
+mark=int(input("enter the mark :"))
+marks.append(mark)
+mark=int(input("enter the mark :"))
+marks.append(mark)
+mark=int(input("enter the mark :"))
+marks.append(mark)
+mark=int(input("enter the mark :"))
+marks.append(mark)
+mark=int(input("enter the mark :"))
+marks.append(mark)
+mark=int(input("enter the mark :"))
+marks.append(mark)
+marks.sort()
+print(marks)
