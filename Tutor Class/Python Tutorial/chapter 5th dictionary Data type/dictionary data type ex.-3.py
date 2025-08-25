@@ -6,7 +6,9 @@ shope={"shop":"50",
        }
 #third example
 # here we can change data in list by list function method 
-shope["list"].insert(5,"raman")# it is way to insert data in dictionary list by insert method
+shope["list"].insert(4,"aman")# it is way to insert data in dictionary list by insert method
+shope["list"].insert(3,"raman")# it is way to insert data in dictionary list by insert method
 print(shope["list"])
-shope["tuple"] = (shope["tuple"][0],"Raman",shope["tuple"][1],"Aman",shope["tuple"][2])
+shope["tuple"] =(shope["tuple"][0],"Raman",shope["tuple"][1],"Aman",shope["tuple"][2])
 print(shope["tuple"])#it is way to insert data in dictionary tuple by tuple list indexing method
+# we can only do use insert method because in tuple we can not change element

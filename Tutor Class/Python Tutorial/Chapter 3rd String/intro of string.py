@@ -1,4 +1,4 @@
-    #  All String Function
+    #  All String opration and method
 # that are the way for difine the string
 # a="raman"
 # a='raman'
@@ -16,7 +16,7 @@ b="raman"
 # print(b[0:])
 # # scaping slicing of String 
 # print(b[0:3:2])
-# #   string function
+# #   string method
 print(len(b))
 print(b.endswith("man"))
 print(b.endswith("nam"))

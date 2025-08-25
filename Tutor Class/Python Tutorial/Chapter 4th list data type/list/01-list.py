@@ -7,3 +7,4 @@ garden[0]="grapes"
 print(garden)
 print(garden[0])
 print(field)
+print(field[0])

@@ -1,3 +1,4 @@
+# its call  opration slicing in string
 b="raman"
 short_name=b[0:3]
 print(short_name)

@@ -1,4 +1,4 @@
-# string function
+# string methods
 b="raman"
 print(len(b))
 print(b.endswith("man"))

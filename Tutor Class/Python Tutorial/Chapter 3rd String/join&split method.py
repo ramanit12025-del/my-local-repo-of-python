@@ -1,4 +1,4 @@
-# these are two special function
+# these are two special method
 b="raman,aman,chaman"
 e=b.split(",") 
 print(e)#output ->['raman', 'aman', 'chaman']
