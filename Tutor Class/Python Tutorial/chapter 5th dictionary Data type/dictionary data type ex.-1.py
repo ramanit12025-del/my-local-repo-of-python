@@ -1,3 +1,4 @@
+marks={}#its called empty dictonary
 # it is structure to write dictionaryes data
 marks={
     "raman":100,

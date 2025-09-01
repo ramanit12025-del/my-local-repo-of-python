@@ -8,3 +8,5 @@ print(garden)
 print(garden[0])
 print(field)
 print(field[0])
+print(garden.pop())#in pop method a element randamly erres from set
+print(garden.pop())#in pop method a element randamly erres from set
