@@ -1,0 +1,7 @@
+<input              ← Tag
+  type="text"       ← Attribute + Value
+  name="username"   ← Attribute + Value
+  value="Raman"     ← Attribute + Value
+  maxlength="10"    ← Attribute + Value
+>                   ← End of Element
+means that Element ham use kehte jo tag and tag ke andar likha jata hai matalb ham jo attribute value lete hai vo sab Element hai
